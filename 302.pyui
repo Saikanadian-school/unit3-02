@@ -1,0 +1,91 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {240, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "EEAE70DD-4711-4DA0-B074-F016DDC9CC45",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "guess a number from one to ten",
+          "font_size" : 15,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 100}, {240, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_touch_up_inside",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "check",
+          "uuid" : "536E0A5C-DAAD-42AA-9EC2-2C75BD564E78",
+          "class" : "Button",
+          "name" : "check_touch_up_inside",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 40}, {240, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "guess_textfield",
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "D2D0802A-E3B6-4DE3-B00D-2359171FF6C6",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 140}, {240, 114}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "answer_label",
+          "editable" : true,
+          "frame" : "{{20, 20}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "8CF453BB-2D92-4CE7-8055-0D3E13C2AB07",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
